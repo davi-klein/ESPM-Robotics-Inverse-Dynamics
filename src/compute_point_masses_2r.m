@@ -1,4 +1,4 @@
-function masses = compute_point_masses(robot, kin)
+function masses = compute_point_masses_2r(robot, kin)
 % COMPUTE_POINT_MASSES Calculates the kinematics of equimomental point masses.
 %
 % This function determines the global position, velocity, and acceleration

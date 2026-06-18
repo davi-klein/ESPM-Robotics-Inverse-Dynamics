@@ -1,4 +1,4 @@
-function robot = init_robot_params()
+function robot = init_robot_2r_params()
 % INIT_ROBOT_PARAMS Initializes the physical properties of the 2R robot.
 %
 % This function sets up the structural parameters, masses, and inertia

@@ -1,4 +1,4 @@
-function torques = compute_inverse_dynamics(robot, kin, masses)
+function torques = compute_inverse_dynamics_2r(robot, kin, masses)
 % COMPUTE_INVERSE_DYNAMICS Calculates required joint torques.
 %
 % Applies D'Alembert's principle with equimomental systems of point masses

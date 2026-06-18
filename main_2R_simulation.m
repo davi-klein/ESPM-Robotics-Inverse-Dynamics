@@ -10,7 +10,7 @@ addpath('src');
 disp('Initializing 2R Robot Simulation...');
 
 % 1. Initialization of Robot Parameters
-robot = init_robot_params();
+robot = init_robot_2r_params();
 
 % 2. Simulation Parameters & Time Vector
 n = 120;                  % Number of simulation points
@@ -44,13 +44,13 @@ disp('Computing Kinematics and Inverse Dynamics (Davies Method)...');
 
 for i = 1:n+1
     % Step A: Kinematics
-    kin = compute_kinematics(robot, th1(i), th2(i), dth1(i), dth2(i), ddth1(i), ddth2(i));
+    kin = compute_kinematics_2r(robot, th1(i), th2(i), dth1(i), dth2(i), ddth1(i), ddth2(i));
     
     % Step B: Equimomental Point Masses
-    masses = compute_point_masses(robot, kin);
+    masses = compute_point_masses_2r(robot, kin);
     
     % Step C: Inverse Dynamics 
-    torques = compute_inverse_dynamics(robot, kin, masses);
+    torques = compute_inverse_dynamics_2r(robot, kin, masses);
     
     % Store Iteration Results
     results.pos(:, i) = kin.C;

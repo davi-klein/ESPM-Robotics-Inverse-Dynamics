@@ -1,4 +1,4 @@
-function kin = compute_kinematics(robot, th1, th2, dth1, dth2, ddth1, ddth2)
+function kin = compute_kinematics_2r(robot, th1, th2, dth1, dth2, ddth1, ddth2)
 % COMPUTE_KINEMATICS Calculates forward and differential kinematics.
 %
 % Evaluates the Cartesian positions, velocities, and accelerations for 
