@@ -9,9 +9,9 @@ disp('Initializing 6-SPS Stewart-Gough Platform Simulation...');
 
 % 1. Load Pre-calculated Trajectory & Validation Data
 % Ensure 'dL.mat', 'ddL.mat', and 'tau.mat' are in the root directory
-load('dL.mat');
-load('ddL.mat');
-load('tau.mat');
+load('data/dL.mat');
+load('data/ddL.mat');
+load('data/tau.mat');
 
 robot = init_robot_6sps_params();
 
