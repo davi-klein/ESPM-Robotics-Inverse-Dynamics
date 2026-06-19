@@ -6,7 +6,7 @@
 
 This repository contains a production-ready MATLAB physics engine for computing the **Inverse Dynamics** of increasingly complex robotic topologies: a **2R planar serial robot**, a **3-RRR planar parallel robot**, and a spatial **6-SPS Stewart-Gough platform**. 
 
-The physics engine is strictly built upon **D'Alembert's Principle** combined with **Equimomental Systems of Point Masses** and scaled using **Davies' Method (Graph Theory)** for robust closed-chain constraint solving.
+The physics engine is strictly built upon **D'Alembert's Principle** combined with **Equimomental Systems of Point Masses** and scaled using **Davies' Method (Graph and Screw Theory)** for robust closed-chain constraint solving.
 
 ## Mathematical and Engineering Highlights
 
