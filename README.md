@@ -53,6 +53,6 @@ No external heavy toolboxes (like Simscape) are required. The engine relies pure
 
 ## Author
 
-**Davi Klein**
-M.Sc. Student in Computer Science | Robotics Researcher
+**Davi Klein**  
+M.Sc. Student in Computer Science | Robotics Researcher  
 Federal University of Santa Maria (UFSM)
