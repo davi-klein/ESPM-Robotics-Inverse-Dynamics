@@ -4,7 +4,6 @@
 %=========================================================================%
 clc; close all; clear; format short eng;
 
-% Adiciona a pasta de módulos ao path do MATLAB
 addpath('src');
 
 disp('Initializing 2R Robot Simulation...');
